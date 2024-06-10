@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body{
+    background: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color: #ffff;
+    max-width: 1440px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+.img img{
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 15px
+}
+
+a{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p{
+    font-size: 16px;
+    color: #808080;
+}
+
+.container-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.conteudo p{
+    padding-top: 1rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container-info button{
+    width: 300px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #ffff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.container-info a{
+    color: #808080;
+    font-weight: 700;
+}
+
+.sla{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:hsl(225, 100%, 98%); 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    
+}
+
+.sla div{
+    padding: 15px;
+}
+
+
+.price p{
+    padding-top: 2px;
+    text-align: left;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.Change a{
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    text-decoration: underline;
+}
+
